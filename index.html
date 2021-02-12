@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emilio Web Dev - Ready to compile</title>
+
+    <!-- JQUERY AND JQUERY.UI-->
+    <script src="./src/jquery-3.5.1.js"></script>
+    <script src="./src/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+    <!-- AOS ANIMATIONS CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- FONT AWESOME ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <!-- OWN CSS AND JS FILES -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="text/javascript" src="./src/script.js"></script>
+</head>
+
+<body>
+    <main>
+        <!-- 1) HERO IMAGE -->
+        <div id="hero-image">
+            <div id="hero-text">
+                <h1 class="hero-phrase" data-aos="slide-left" data-aos-easing="ease-in">
+                    Hi! I'm <span>Emilio.</span>
+                </h1>
+
+                <h1 class="hero-phrase" data-aos="slide-right" data-aos-easing="ease-in">
+                    I'm working as a
+                </h1>
+
+                <h1 class="hero-phrase" id="typewriter"></h1>
+
+                <button class="button-projects" type="button">
+                    See projects →
+                </button>
+            </div>
+        </div>
+
+        <!-- 2) NAVBAR-->
+        <nav>
+            <!-- 2.1) RESPONSIVE ICON -->
+            <div class="toggle">
+                <a class="icon" href="javascript:void(0);">
+                    <i class="fa fa-bars fa-2x"></i>
+                </a>
+            </div>
+
+            <!-- 2.2) ANCHORS MENU -->
+            <ul class="menu">
+                <li class="item home-href"><a href="javascript:void(0)">HOME</a></li>
+                <li class="item about-href"><a href="javascript:void(0)">ABOUT</a></li>
+                <li class="item projects-href"><a href="javascript:void(0)">PROJECTS</a></li>
+                <li class="item contact-href"><a href="javascript:void(0)">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <!-- 3) SECTION ABOUT -->
+        <section id="about">
+            <h1 class="section-header">ABOUT</h1>
+
+            <!-- CONTAINER -->
+            <div id="about-grid">
+                <!-- 3.1) PERKS -->
+                <div id="perks">
+                    <div class="perk-row">
+                        <article data-aos="flip-left" data-aos-duration="1000" data-aos-once="true"
+                            data-aos-anchor-placement="bottom-bottom" class="perk-item">
+                            <img class="perk-icon" src="./assets/responsive.png" alt="icono">
+                            <h2>Responsive</h2>
+                            <p>My websites are adapted to fit any screen size.</p>
+                        </article>
+
+                        <article data-aos="flip-left" data-aos-duration="1000" data-aos-delay="50"
+                            data-aos-anchor-placement="bottom-bottom" data-aos-once="true" class="perk-item">
+                            <img class="perk-icon" src="./assets/fast.png" alt="icono">
+                            <h2>Fast</h2>
+                            <p>Short loading times and quick multimedia interactions.</p>
+                        </article>
+
+                    </div>
+
+                    <div class="perk-row">
+                        <article data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" data-aos-delay="100"
+                            data-aos-anchor-placement="bottom-bottom" class="perk-item">
+                            <img class="perk-icon" src="./assets/intuituve.png" alt="icono">
+                            <h2>Minimalist</h2>
+                            <p>Beautiful and simple web designs to avoid any confusion.</p>
+                        </article>
+
+                        <article data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" data-aos-delay="150"
+                            data-aos-anchor-placement="bottom-bottom" class="perk-item">
+                            <img class="perk-icon" src="./assets/clean.png" alt="icono">
+                            <h2>Clean</h2>
+                            <p>My code is always ordered, documented and readable.</p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- 3.2) MYSELF -->
+                <div id="myself">
+                    <div class="myself-box">
+                        <img class="myself-image" data-aos="zoom-out" data-aos-once="true"
+                            data-aos-anchor-placement="top-center" src="./assets/yo.png" alt="soy yo">
+
+                        <div class="myself-text">
+                            <h1>Pleased to meet you</h1>
+                            <p>
+                                I am Junior Web Developer willing to offer the best of my ability.
+                                I love learning, web design and videogames.</br>
+                                <a class="contact-me" href="#contact">Let's do it!</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3.3) SKILLS -->
+                <div id="skills">
+
+                    <!--html -->
+                    <div class="skill-item">
+
+                        <div class="skill-name-bg">
+                            <span class="skill-name">HTML</span>
+                        </div>
+
+                        <div class="skill-balls">
+                            <div class="circle" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+                                data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="50"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="100"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="150"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                        </div>
+
+                        <div id="open-modal">
+                            <span>?</span>
+                        </div>
+                    </div>
+
+                    <!--css -->
+                    <div class="skill-item">
+                        <div class="skill-name-bg">
+                            <span class="skill-name">CSS</span>
+                        </div>
+
+                        <div class="skill-balls">
+                            <div class="circle" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+                                data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="50"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="100"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="150"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                        </div>
+                    </div>
+
+                    <!--bootstrap -->
+                    <div class="skill-item">
+                        <div class="skill-name-bg">
+                            <span class="skill-name">Bootstrap</span>
+                        </div>
+
+                        <div class="skill-balls">
+                            <div class="circle" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+                                data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="50"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="100"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle off" data-aos="fade-left" data-aos-delay="150"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                        </div>
+                    </div>
+
+                    <!--js-->
+                    <div class="skill-item">
+                        <div class="skill-name-bg">
+                            <span class="skill-name">Javascript</span>
+                        </div>
+
+                        <div class="skill-balls">
+                            <div class="circle" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+                                data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="50"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="100"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="150"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                        </div>
+                    </div>
+
+                    <!--jquery -->
+                    <div class="skill-item">
+                        <div class="skill-name-bg">
+                            <span class="skill-name">JQuery</span>
+                        </div>
+
+                        <div class="skill-balls">
+                            <div class="circle" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+                                data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="50"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="100"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle off" data-aos="fade-left" data-aos-delay="150"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                        </div>
+                    </div>
+
+                    <!--angular-->
+                    <div class="skill-item">
+                        <div class="skill-name-bg">
+                            <span class="skill-name">Angular</span>
+                        </div>
+
+                        <div class="skill-balls">
+                            <div class="circle" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+                                data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="50"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle off" data-aos="fade-left" data-aos-delay="100"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle off" data-aos="fade-left" data-aos-delay="150"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                        </div>
+                    </div>
+
+                    <!--php-->
+                    <div class="skill-item">
+                        <div class="skill-name-bg">
+                            <span class="skill-name">PHP</span>
+                        </div>
+
+                        <div class="skill-balls">
+                            <div class="circle" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+                                data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="50"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="100"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle off" data-aos="fade-left" data-aos-delay="150"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                        </div>
+                    </div>
+
+                    <!--sql-->
+                    <div class="skill-item">
+                        <div class="skill-name-bg">
+                            <span class="skill-name">SQL</span>
+                        </div>
+
+                        <div class="skill-balls">
+                            <div class="circle" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+                                data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="50"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="100"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="150"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                        </div>
+                    </div>
+
+                    <!--wordpress-->
+                    <div class="skill-item">
+                        <div class="skill-name-bg">
+                            <span class="skill-name">Wordpress</span>
+                        </div>
+
+                        <div class="skill-balls">
+                            <div class="circle" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+                                data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="50"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle off" data-aos="fade-left" data-aos-delay="100"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle off" data-aos="fade-left" data-aos-delay="150"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                        </div>
+                    </div>
+
+                    <!--git-->
+                    <div class="skill-item">
+                        <div class="skill-name-bg">
+                            <span class="skill-name">Git</span>
+                        </div>
+
+                        <div class="skill-balls">
+                            <div class="circle" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+                                data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="50"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="100"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle off" data-aos="fade-left" data-aos-delay="150"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                        </div>
+                    </div>
+
+                    <!--phtoshop-->
+                    <div class="skill-item">
+                        <div class="skill-name-bg">
+                            <span class="skill-name">Photoshop</span>
+                        </div>
+
+                        <div class="skill-balls">
+                            <div class="circle" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+                                data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="50"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle" data-aos="fade-left" data-aos-delay="100"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                            <div class="circle off" data-aos="fade-left" data-aos-delay="150"
+                                data-aos-anchor-placement="bottom-bottom" data-aos-once="true"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 3.4) MODAL-->
+                <div id="skills-modal">
+                    <div class="skills-modal-content">
+                        <span id="close-modal">&times;</span>
+
+                        <h1>Click on the desired ball!</h1>
+                        <div class="skill-item">
+                            <div class="skill-name-bg">
+                                <span class="skill-name">Skill</span>
+                            </div>
+
+                            <div id="modal-circles" class="skill-balls">
+                                <div class="circle novice"></div>
+                                <div class="circle off basic"></div>
+                                <div class="circle off medium"></div>
+                                <div class="circle off high"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-description">
+                            <p><strong>Novice level:</strong> Basic understanding of the languague/tool. Used it a
+                                couple of times but I am not fond of it.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 4) SECTION PROJECTS -->
+        <section id="projects">
+            <h1 class="section-header">PROJECTS</h1>
+
+            <!-- 4.1) SORT PROJECTS-->
+            <div class="sort-projects">
+                <div id="sort-all" class="selectable current">
+                    <h2>ALL</h2>
+                </div>
+                <div id="sort-web" class="selectable">
+                    <h2>WEBSITES</h2>
+                </div>
+                <div id="sort-games" class="selectable">
+                    <h2>GAMES</h2>
+                </div>
+            </div>
+
+            <!-- 4.2) PROJECT GALLERY -->
+            <div class="project-gallery">
+
+                <div class="project-item web">
+                    <div class="project-hidden">
+                        <h2>Title Project</h2>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>View source code</span>
+                            <i class="fas fa-code fa-lg"></i>
+                        </a>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>Go to website</span>
+                            <i class="far fa-eye fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-item game">
+                    <div class="project-hidden">
+                        <h2>Title Project</h2>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>View source code</span>
+                            <i class="fas fa-code fa-lg"></i>
+                        </a>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>Go to website</span>
+                            <i class="far fa-eye fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-item web">
+                    <div class="project-hidden">
+                        <h2>Title Project</h2>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>View source code</span>
+                            <i class="fas fa-code fa-lg"></i>
+                        </a>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>Go to website</span>
+                            <i class="far fa-eye fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-item game">
+                    <div class="project-hidden">
+                        <h2>Title Project</h2>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>View source code</span>
+                            <i class="fas fa-code fa-lg"></i>
+                        </a>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>Go to website</span>
+                            <i class="far fa-eye fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-item web">
+                    <div class="project-hidden">
+                        <h2>Title Project</h2>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>View source code</span>
+                            <i class="fas fa-code fa-lg"></i>
+                        </a>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>Go to website</span>
+                            <i class="far fa-eye fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-item game">
+                    <div class="project-hidden">
+                        <h2>Title Project</h2>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>View source code</span>
+                            <i class="fas fa-code fa-lg"></i>
+                        </a>
+
+                        <a href="https://www.google.com" target="_blank">
+                            <span>Go to website</span>
+                            <i class="far fa-eye fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--5) SECTION CONTACT-->
+        <section id="contact">
+            <h1 class="section-header">CONTACT</h1>
+
+            <!--CONTAINER-->
+            <div id="contact-flex">
+                <div class="contact-box left" data-aos="fade-up-right" data-aos-anchor-placement="bottom-bottom"
+                    data-aos-once="true">
+                    <p>Email me!</p>
+                    <a href="mailto:emilio.nero3@gmail.com">
+                        <img src="./assets/gmail.png" alt="Gmail: emilio.nero3@gmail.com">
+                    </a>
+                </div>
+
+                <div class="contact-box right" data-aos="fade-up-left" data-aos-anchor-placement="bottom-bottom"
+                    data-aos-once="true">
+                    <p>Or chat!</p>
+
+                    <a href=" https://wa.me/34653325463?text=Hey%21%20Your%20website%20brought%20me%20here%20%3A%29"
+                        target="_blank"><img src="./assets/whatsapp.png" alt=" Whatsapp +34653325463"></a>
+
+                    <a href="https://telegram.me/EROM04" target="_blank">
+                        <img src="./assets/telegrama.png" alt="Telegram EROM04">
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 6) FOOTER -->
+        <footer>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/emiliomarin-webdev/" target="_blank" class="sm-item">
+                    <i class="fab fa-github fa-3x"></i>
+                </a>
+
+                <a href="https://github.com/emiliowebdev" target="_blank" class="sm-item">
+                    <i class="fab fa-linkedin-in fa-3x"></i>
+                </a>
+
+                <a href="https://www.instagram.com/04emiir/" target="_blank" class="sm-item">
+                    <i class="fab fa-instagram fa-3x"></i>
+                </a>
+
+            </div>
+            <h4 class="copy">EMILIO MARIN &copy;2020</h4>
+        </footer>
+
+    </main>
+
+    <!-- AOS INTI-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
