@@ -76,7 +76,12 @@ $(document).ready(function () {
 
         hide_ele.stop().hide();
         show_ele.stop().show();
+    }
 
+    function addAnchors(array, location) {
+        setTimeout(() => { 
+            location.append(array)
+        }, 20);
     }
 
 
@@ -146,7 +151,9 @@ $(document).ready(function () {
         body.stop().animate({
             scrollTop: topValue
         }, 300, 'swing');
-        toggleMenu();
+
+        if ($(".menu").hasClass("show"))
+            $(".menu").removeClass("show");
     });
 
 
@@ -234,6 +241,20 @@ $(document).ready(function () {
             $(this).addClass("current");
             sortProject(".web");
         }
+    });
+
+    // ITEM HIDDEN DIV
+    $(".project-item").hover(function () {
+        var anchors = $(this).children(".project-hidden").children("a");
+        var div_location = $(this).children(".project-hidden");
+
+        $(this).children(".project-hidden").css('display', 'flex');
+        $(this).children(".project-hidden").children("a").remove();
+
+        addAnchors(anchors, div_location);
+
+    }, function () {
+        $(this).children(".project-hidden").fadeOut("fast");
     });
 
 
