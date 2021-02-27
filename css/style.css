@@ -554,8 +554,8 @@ section#projects {
     background-size: cover;
 }
 
-#school-blog{
-    background: url("../assets/thumbnail_ies.png");
+#academy{
+    background: url("../assets/thumbnail_it.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -568,7 +568,7 @@ section#projects {
     background-size: cover;
 }
 
-#cafe-shop, #gym-web{
+#gym-web{
     background: url("../assets/construction.jpg");
     background-repeat: no-repeat;
     background-position: bottom;

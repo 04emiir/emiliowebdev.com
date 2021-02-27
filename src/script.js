@@ -182,6 +182,7 @@ $(document).ready(function () {
         }
     });
 
+    // Depending on which circle the user pulsed.
     $(".circle.novice").click(function () {
         var string = `
         <strong>Novice level:</strong> Basic understanding of the languague/tool. Used it a couple of times but I am not fond of it.
