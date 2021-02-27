@@ -1,11 +1,11 @@
 # Personal Website / Portfolio
-My own personal website that features a bunch of projects, the languagues/technologies I code with and my social media or contact.
+My own personal website built to look like an onlineCV combined with my portfolio.
 
 ## Languagues
 - HTML
 - CSS
 - Javascript
-- Jquery
+- JQuery
 
 ## Website URL
 [emiliowebdev.com](https://www.emiliowebdev.com)
