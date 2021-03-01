@@ -98,22 +98,20 @@ nav .menu {
 
 nav .menu .item {
     margin-left: 6vw;
-}
-
-nav ul .item:first-child {
-    margin-left: 13vw;
-}
-
-nav .menu .item a {
     color: #D9E0E8;
     font-size: 1.3rem;
     text-decoration: none;
     transition: all 0.1s;
 }
 
-nav .menu .item a:hover {
+nav ul .item:first-child {
+    margin-left: 13vw;
+}
+
+nav .menu .item:hover {
     color: #FFCA26;
     font-size: 1.4rem;
+    cursor: pointer;
 }
 
 nav .toggle {
@@ -686,7 +684,7 @@ footer {
     position: relative;
     top: 9vh;
     width: 100%;
-    height: 35vh;
+    height: 250px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -809,7 +807,7 @@ footer .copy {
         transform: translate(-5%, -50%);
     }
 
-    nav .toggle a i {
+    nav .toggle div i {
         color: white;
     }
 
@@ -970,7 +968,7 @@ footer .copy {
         transform: translate(-5%, -50%);
     }
 
-    nav .toggle a i {
+    nav .toggle div i {
         color: white;
     }
 
@@ -992,7 +990,7 @@ footer .copy {
         padding: 1% 0% 1% 5%;
     }
 
-    nav .menu .item a {
+    nav .menu .item {
         font-size: 1.2rem;
     }
 

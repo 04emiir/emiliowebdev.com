@@ -3,21 +3,19 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="icon" type="image/png" href="./assets/favicon.png">
     <title>Emilio Web Dev - Ready to compile</title>
 
-    <!-- JQUERY AND JQUERY.UI-->
-    <script src="./src/jquery-3.5.1.js"></script>
-    <script src="./src/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <!-- JQUERY AND JQUERY UI-->
+    <script type="text/javascript" src="./cdn/jquery-3.5.1.js" async></script>
+    <script type="text/javascript" src="./cdn/jquery-ui-1.12.1/jquery-ui.min.js" async></script>
 
     <!-- AOS ANIMATIONS CSS-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- FONT AWESOME ICONS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./cdn/fontawesome-free-5.15.2-web/css/all.min.css">
 
     <!-- OWN CSS AND JS FILES -->
     <link rel="stylesheet" href="./css/style.css" />
@@ -49,17 +47,17 @@
         <nav>
             <!-- 2.1) RESPONSIVE ICON -->
             <div class="toggle">
-                <a class="icon" href="javascript:void(0);">
+                <div class="icon">
                     <i class="fa fa-bars fa-2x"></i>
-                </a>
+                </div>
             </div>
 
-            <!-- 2.2) ANCHORS MENU -->
+            <!-- 2.2) MENU -->
             <ul class="menu">
-                <li class="item home-href"><a href="javascript:void(0)">HOME</a></li>
-                <li class="item about-href"><a href="javascript:void(0)">ABOUT</a></li>
-                <li class="item projects-href"><a href="javascript:void(0)">PROJECTS</a></li>
-                <li class="item contact-href"><a href="javascript:void(0)">CONTACT</a></li>
+                <li class="item home-href">HOME</li>
+                <li class="item about-href">ABOUT</li>
+                <li class="item projects-href">PROJECTS</li>
+                <li class="item contact-href">CONTACT</li>
             </ul>
         </nav>
 
@@ -109,7 +107,7 @@
                 <div id="myself">
                     <div class="myself-box">
                         <img class="myself-image" data-aos="zoom-out" data-aos-once="true"
-                            data-aos-anchor-placement="top-center" src="./assets/yo.png" alt="soy yo">
+                            data-aos-anchor-placement="top-center" src="./assets/yo.png" alt="Its me!">
 
                         <div class="myself-text">
                             <h1>Pleased to meet you</h1>
@@ -385,12 +383,12 @@
                     <div class="project-hidden">
                         <h2>Own website</h2>
 
-                        <a href="https://github.com/emiliowebdev/emiliowebdev.com" target="_blank">
+                        <a href="https://github.com/emiliowebdev/emiliowebdev.com" rel="noopener" target="_blank">
                             <span>View source code</span>
                             <i class="fas fa-code fa-lg"></i>
                         </a>
 
-                        <a href="https://www.emiliowebdev.com/" target="_blank">
+                        <a href="https://www.emiliowebdev.com/" rel="noopener" target="_blank">
                             <span>Go to website</span>
                             <i class="far fa-eye fa-lg"></i>
                         </a>
@@ -402,12 +400,12 @@
                     <div class="project-hidden">
                         <h2>Space Invaders</h2>
 
-                        <a href="https://github.com/emiliowebdev/space-invaders" target="_blank">
+                        <a href="https://github.com/emiliowebdev/space-invaders" rel="noopener" target="_blank">
                             <span>View source code</span>
                             <i class="fas fa-code fa-lg"></i>
                         </a>
 
-                        <a href="https://www.emiliowebdev.com/space-invaders/" target="_blank">
+                        <a href="https://www.emiliowebdev.com/space-invaders/" rel="noopener" target="_blank">
                             <span>Go to website</span>
                             <i class="far fa-eye fa-lg"></i>
                         </a>
@@ -419,12 +417,12 @@
                     <div class="project-hidden">
                         <h2>HORS: Game</h2>
 
-                        <a href="https://github.com/emiliowebdev/hors" target="_blank">
+                        <a href="https://github.com/emiliowebdev/hors" rel="noopener" target="_blank">
                             <span>View source code</span>
                             <i class="fas fa-code fa-lg"></i>
                         </a>
 
-                        <a href="https://www.emiliowebdev.com/hors/" target="_blank">
+                        <a href="https://www.emiliowebdev.com/hors/" rel="noopener" target="_blank">
                             <span>Go to website</span>
                             <i class="far fa-eye fa-lg"></i>
                         </a>
@@ -436,12 +434,12 @@
                     <div class="project-hidden">
                         <h2>Nailed It! Academy</h2>
 
-                        <a href="https://github.com/emiliowebdev/nailed-it" target="_blank">
+                        <a href="https://github.com/emiliowebdev/nailed-it" rel="noopener" target="_blank">
                             <span>View source code</span>
                             <i class="fas fa-code fa-lg"></i>
                         </a>
 
-                        <a href="https://www.emiliowebdev.com/nailed-it/" target="_blank">
+                        <a href="https://www.emiliowebdev.com/nailed-it/" rel="noopener" target="_blank">
                             <span>Go to website</span>
                             <i class="far fa-eye fa-lg"></i>
                         </a>
@@ -453,12 +451,12 @@
                     <div class="project-hidden">
                         <h2>Fitness Arena</h2>
 
-                        <a href="https://github.com/emiliowebdev/fitness-arena" target="_blank">
+                        <a href="https://github.com/emiliowebdev/fitness-arena" rel="noopener" target="_blank">
                             <span>View source code</span>
                             <i class="fas fa-code fa-lg"></i>
                         </a>
 
-                        <a href="https://www.emiliowebdev.com/fitness-arena/" target="_blank">
+                        <a href="https://www.emiliowebdev.com/fitness-arena/" rel="noopener" target="_blank">
                             <span>Go to website</span>
                             <i class="far fa-eye fa-lg"></i>
                         </a>
@@ -477,7 +475,7 @@
                 <div class="contact-box left" data-aos="fade-up-right" data-aos-anchor-placement="bottom-bottom"
                     data-aos-once="true">
                     <p>Email me!</p>
-                    <a href="mailto:emilio.nero3@gmail.com">
+                    <a href="mailto:emilio.nero3@gmail.com" rel="noopener">
                         <img src="./assets/gmail.png" alt="Gmail: emilio.nero3@gmail.com">
                     </a>
                 </div>
@@ -487,9 +485,11 @@
                     <p>Or chat!</p>
 
                     <a href=" https://wa.me/34653325463?text=Hey%21%20Your%20website%20brought%20me%20here%20%3A%29"
-                        target="_blank"><img src="./assets/whatsapp.png" alt=" Whatsapp +34653325463"></a>
+                        target="_blank" rel="noopener">
+                        <img src="./assets/whatsapp.png" alt=" Whatsapp +34653325463">
+                    </a>
 
-                    <a href="https://telegram.me/EROM04" target="_blank">
+                    <a href="https://telegram.me/EROM04" target="_blank" rel="noopener">
                         <img src="./assets/telegrama.png" alt="Telegram EROM04">
                     </a>
                 </div>
@@ -500,20 +500,20 @@
         <!-- 6) FOOTER -->
         <footer>
             <div class="social-media">
-                <a href="https://www.linkedin.com/in/emiliomarin-webdev/" target="_blank" class="sm-item">
+                <a href="https://www.linkedin.com/in/emiliomarin-webdev/" rel="noopener" aria-label="LinkedIn" target="_blank" class="sm-item">
                     <i class="fab fa-github fa-3x"></i>
                 </a>
 
-                <a href="https://github.com/emiliowebdev" target="_blank" class="sm-item">
+                <a href="https://github.com/emiliowebdev" rel="noopener" aria-label="Github" target="_blank" class="sm-item">
                     <i class="fab fa-linkedin-in fa-3x"></i>
                 </a>
 
-                <a href="https://www.instagram.com/04emiir/" target="_blank" class="sm-item">
+                <a href="https://www.instagram.com/04emiir/" rel="noopener" aria-label="Instagram" target="_blank" class="sm-item">
                     <i class="fab fa-instagram fa-3x"></i>
                 </a>
             </div>
             
-            <h4 class="copy">EMILIO MARIN &copy;2020</h4>
+            <p class="copy">EMILIO MARIN &copy;2020</p>
         </footer>
 
     </main>
