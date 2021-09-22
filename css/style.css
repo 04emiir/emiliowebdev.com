@@ -573,6 +573,27 @@ section#projects {
     background-size: cover;
 }
 
+#albalonga{
+    background: url("../assets/thumbnail_alba.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+#icnct{
+    background: url("../assets/thumbnail_icnct.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+#paime{
+    background: url("../assets/thumbnail_paime.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
 
 /* 5) SECTION CONTACT */
 section#contact {
