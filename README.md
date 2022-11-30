@@ -7,5 +7,3 @@ My own personal website built to look like an onlineCV combined with my portfoli
 - Javascript
 - JQuery
 
-## Website URL
-[emiliowebdev.com](https://www.emiliowebdev.com)
